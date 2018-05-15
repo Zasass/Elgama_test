@@ -6,11 +6,11 @@
       <file name="/Dummy.txt" timestamp="1526415501387">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526413537574">
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526415749431">
+        <mark key="[" line="34" column="9" />
+        <mark key="]" line="34" column="9" />
         <mark key="^" line="9" column="95" />
-        <mark key="." line="56" column="0" />
+        <mark key="." line="34" column="26" />
         <mark key="o" line="9" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
@@ -24,8 +24,7 @@
 #print(a)</text>
       </register>
       <register name="&quot;" type="4">
-        <text>a = &quot;hello wordddd&quot;
-#print(a)</text>
+        <text>eskom fa</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">ICAjIHByaW50KGZ0cC5nZXR3ZWxjb21lKCkpCiAgICMgZnRwLmRpcigp</text>
@@ -55,7 +54,7 @@ port=&quot;&quot;</text>
         <text encoding="base64">ICAgIGZyb20gZnRwbGliIGltcG9ydCBGVFAKCiAgICBmdHAgPSBGVFAoJzg0LjI0MC4zMC4xNDMnKQogICAgZnRwLmxvZ2luKHVzZXI9ImFkbWluIiwgcGFzc3dkPSJrYXprb2tzIikKICAgICMgZnRwLmRpcigp</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgIA==</text>
+        <text>eskom fa</text>
       </register>
     </registers>
     <search>
