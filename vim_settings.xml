@@ -6,12 +6,12 @@
       <file name="/Dummy.txt" timestamp="1526333326099">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526405601820">
-        <mark key="[" line="11" column="68" />
-        <mark key="]" line="11" column="69" />
-        <mark key="." line="11" column="69" />
-        <mark key="^" line="1" column="3" />
-        <mark key="o" line="10" column="58" />
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526407873414">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
+        <mark key="^" line="8" column="95" />
+        <mark key="o" line="8" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526400703792">
         <mark key="[" line="0" column="0" />
@@ -20,26 +20,36 @@
     <jumps />
     <registers>
       <register name="1" type="4">
-        <text>dest='mode', 
-                    const='SERVER', default='CLIENT',
-                    help='Client mode (default: Client)')</text>
+        <text>print(args.mode)
+print(args.adress)
+print(args.port)</text>
       </register>
       <register name="&quot;" type="4">
+        <text>print(args.mode)
+print(args.adress)
+print(args.port)</text>
+      </register>
+      <register name="2" type="4">
+        <text>mode=&quot;&quot;
+adress=&quot;&quot;
+port=&quot;&quot;</text>
+      </register>
+      <register name="3" type="4">
         <text>dest='mode', 
                     const='SERVER', default='CLIENT',
                     help='Client mode (default: Client)')</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gdGhlIGludGVnZXJzIChkZWZhdWx0OiBmaW5kIHRoZSBtYXgpJykK</text>
       </register>
-      <register name="3" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdD1zdW0sIGRlZmF1bHQ9bWF4LAo=</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgIGZyb20gZnRwbGliIGltcG9ydCBGVFAKCiAgICBmdHAgPSBGVFAoJzg0LjI0MC4zMC4xNDMnKQogICAgZnRwLmxvZ2luKHVzZXI9ImFkbWluIiwgcGFzc3dkPSJrYXprb2tzIikKICAgICMgZnRwLmRpcigp</text>
       </register>
       <register name="-" type="4">
-        <text>tion='store_m</text>
+        <text>&quot;&quot;&quot;</text>
       </register>
     </registers>
     <search>
