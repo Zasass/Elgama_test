@@ -8,11 +8,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526417384318">
-        <mark key="[" line="34" column="9" />
-        <mark key="]" line="34" column="9" />
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526498585547">
+        <mark key="[" line="51" column="7" />
+        <mark key="]" line="51" column="7" />
         <mark key="^" line="9" column="95" />
-        <mark key="." line="34" column="26" />
+        <mark key="." line="51" column="7" />
         <mark key="o" line="9" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
@@ -21,45 +21,53 @@
     </filemarks>
     <jumps />
     <registers>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>from pyftpdlib.authorizers import DummyAuthorizer
+    from pyftpdlib.servers import FTPServer
+    authorizer = ftpserver.DummyAuthorizer()
+    authorizer.add_user(&quot;todd&quot;, &quot;123&quot;, &quot;/Users/andzst/Desktop/python&quot;)
+    handler = ftpserver.FTPHandler
+    handler.authorizer = authorizer
+    connection = (&quot;localhost&quot;, 21)
+    ftpd = ftpserver.FTPServer(connection, handler)
+    ftpd.serve_forever()</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>192.</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">UGlybWEgdmVyc2lqYSBzdSBjbGllbnRvIGZ1bmtjaWpvbWlzCg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">UGlybWEgdmVyc2lqYSBzdSBjbGllbnRvIGZ1bmtjaWpvbWlzCg==</text>
-      </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>a = &quot;hello wordddd&quot;
 #print(a)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAjIHByaW50KGZ0cC5nZXR3ZWxjb21lKCkpCiAgICMgZnRwLmRpcigp</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>print(args.mode)
 print(args.adress)
 print(args.port)</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>mode=&quot;&quot;
 adress=&quot;&quot;
 port=&quot;&quot;</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>dest='mode', 
                     const='SERVER', default='CLIENT',
                     help='Client mode (default: Client)')</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gdGhlIGludGVnZXJzIChkZWZhdWx0OiBmaW5kIHRoZSBtYXgpJykK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb25zdD1zdW0sIGRlZmF1bHQ9bWF4LAo=</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgIGZyb20gZnRwbGliIGltcG9ydCBGVFAKCiAgICBmdHAgPSBGVFAoJzg0LjI0MC4zMC4xNDMnKQogICAgZnRwLmxvZ2luKHVzZXI9ImFkbWluIiwgcGFzc3dkPSJrYXprb2tzIikKICAgICMgZnRwLmRpcigp</text>
-      </register>
       <register name="-" type="4">
-        <text>eskom fa</text>
+        <text>192.</text>
       </register>
     </registers>
     <search>
