@@ -3,10 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1526417450325">
+      <file name="/Dummy.txt" timestamp="1526556703184">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526554479597">
         <mark key="'" line="68" column="16" />
