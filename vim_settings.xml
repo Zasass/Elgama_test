@@ -8,11 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526546175519">
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526547030715">
         <mark key="'" line="60" column="29" />
-        <mark key="]" line="117" column="21" />
+        <mark key="[" line="107" column="4" />
+        <mark key="]" line="107" column="4" />
         <mark key="^" line="117" column="21" />
-        <mark key="." line="117" column="21" />
+        <mark key="." line="107" column="4" />
         <mark key="o" line="12" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
@@ -28,7 +29,7 @@
         <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoImNvbm5lY3Rpb24gZm91bmQhIikK</text>
       </register>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text>p</text>
       </register>
       <register name="2" type="4">
         <text>from pyftpdlib.authorizers import DummyAuthorizer
@@ -70,7 +71,7 @@ port=&quot;&quot;</text>
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gdGhlIGludGVnZXJzIChkZWZhdWx0OiBmaW5kIHRoZSBtYXgpJykK</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</text>
