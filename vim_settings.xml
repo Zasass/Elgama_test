@@ -8,24 +8,27 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526500858722">
-        <mark key="[" line="68" column="19" />
-        <mark key="]" line="68" column="19" />
-        <mark key="^" line="12" column="95" />
-        <mark key="." line="68" column="19" />
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526535170713">
+        <mark key="'" line="77" column="4" />
+        <mark key="[" line="62" column="15" />
+        <mark key="]" line="62" column="15" />
+        <mark key="^" line="81" column="44" />
+        <mark key="." line="62" column="15" />
         <mark key="o" line="12" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="78" column="4" filename="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" />
+    </jumps>
     <registers>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoImNvbm5lY3Rpb24gZm91bmQhIikK</text>
       </register>
       <register name="&quot;" type="4">
-        <text>e</text>
+        <text>&quot;</text>
       </register>
       <register name="2" type="4">
         <text>from pyftpdlib.authorizers import DummyAuthorizer
@@ -67,15 +70,23 @@ port=&quot;&quot;</text>
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gdGhlIGludGVnZXJzIChkZWZhdWx0OiBmaW5kIHRoZSBtYXgpJykK</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text>&quot;</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</text>
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</last-pattern>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
+      <history-search>
+        <entry encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</entry>
+      </history-search>
       <history-cmd />
       <history-expr />
       <history-input />
