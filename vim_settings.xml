@@ -8,12 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526550831112">
-        <mark key="'" line="60" column="29" />
-        <mark key="[" line="121" column="7" />
-        <mark key="]" line="121" column="8" />
-        <mark key="^" line="120" column="21" />
-        <mark key="." line="121" column="8" />
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526554479597">
+        <mark key="'" line="68" column="16" />
+        <mark key="[" line="99" column="24" />
+        <mark key="]" line="99" column="24" />
+        <mark key="^" line="87" column="21" />
+        <mark key="." line="99" column="24" />
         <mark key="o" line="12" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
@@ -23,22 +23,33 @@
     <jumps>
       <jump line="78" column="4" filename="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" />
       <jump line="60" column="29" filename="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" />
+      <jump line="71" column="16" filename="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" />
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text>cmd = ['/bin/sh', '-c', data]
-        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE).wait()
-        stdout, stderr = cmd.communicate()</text>
+        <text encoding="base64">CiAgICAjc2VydmVyc29ja2V0ID0gc29ja2V0LmNyZWF0ZV9jb25uZWN0aW9uKChob3N0LCBwb3J0KSkKCgogICAgbG9nZ2luZy53YXJuaW5nKGhvc3QpCiAgICBsb2dnaW5nLndhcm5pbmcocG9ydCkKICAgIHNlcnZlcnNvY2tldC5iaW5kKChob3N0LCBwb3J0KSkKICAgIHNlcnZlcnNvY2tldC5zZXR0aW1lb3V0KE5vbmUpCiAgICBzZXJ2ZXJzb2NrZXQubGlzdGVuKDUpCiAgICBsb2dnaW5nLndhcm5pbmcoJ3NlcnZlciBzdGFydGVkIGFuZCBsaXN0ZW5pbmcnKQogICAgd2hpbGUgMToKICAgICAgICAoY2xpZW50c29ja2V0LCBhZGRyZXNzKSA9IHNlcnZlcnNvY2tldC5hY2NlcHQoKQogICAgICAgICNsb2dnaW5nLndhcm5pbmcoCiAgICAgICAgY2xpZW50c29ja2V0LnNlbmQoIlN2ZWlraSBwcmlzaWp1bmdlIHByaWUgc2VydmVyaW8iLmVuY29kZSgpKQogICAgICAgIGRhdGEgPSBjbGllbnRzb2NrZXQucmVjdigxMDI0KS5kZWNvZGUoKQogICAgICAgIGxvZ2dpbmcud2FybmluZyhkYXRhKQogICAgICAgIHIgPSAnUkVjZWlldmUnCiAgICAgICAgY2xpZW50c29ja2V0LnNlbmQoci5lbmNvZGUoKSkKIiIi</text>
       </register>
       <register name="&quot;" type="4">
+        <text>F</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAjIG1zZ2xlbiA9IGxlbihkYXRhKQogICAgICAgICNvdXRwdXQgPSBkYXRhCiAgICAgICAgI2lvdHlwZSA9IHN1YnByb2Nlc3MuUElQRQogICAgICAgICNjbWQgPSBbJy9iaW4vc2gnLCAnLWMnLCBzaGVsbF0KICAgICAgICAjcHJvYyA9IHN1YnByb2Nlc3MuUG9wZW4oY21kLCBzdGRvdXQ9aW90eXBlKS53YWl0KCkKICAgICAgICAjc3Rkb3V0LCBzdGRlcnIgPSBwcm9jLmNvbW11bmljYXRlKCkKICAgICAgICAjY29ubi5zZW5kKHN0ZG91dCkKICAgICAgICAjcHJpbnQob3V0cHV0KQogICAgICAgICNpZiBwcm9jLnJldHVybmNvZGUgIT0gMDoKICAgICAgICAjICAgIHByaW50KCJFcnJvciIp</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">bm90IGRhdGE6CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZWxpZiA=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">aW1wb3J0IG9zLnBhdGgKICAgICAgICAgICAg</text>
+      </register>
+      <register name="5" type="4">
         <text>cmd = ['/bin/sh', '-c', data]
         proc = subprocess.Popen(cmd, stdout=subprocess.PIPE).wait()
         stdout, stderr = cmd.communicate()</text>
       </register>
-      <register name="2" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoImNvbm5lY3Rpb24gZm91bmQhIikK</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text>from pyftpdlib.authorizers import DummyAuthorizer
     from pyftpdlib.servers import FTPServer
     authorizer = ftpserver.DummyAuthorizer()
@@ -49,33 +60,15 @@
     ftpd = ftpserver.FTPServer(connection, handler)
     ftpd.serve_forever()</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">UGlybWEgdmVyc2lqYSBzdSBjbGllbnRvIGZ1bmtjaWpvbWlzCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text>a = &quot;hello wordddd&quot;
 #print(a)</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAjIHByaW50KGZ0cC5nZXR3ZWxjb21lKCkpCiAgICMgZnRwLmRpcigp</text>
-      </register>
-      <register name="7" type="4">
-        <text>print(args.mode)
-print(args.adress)
-print(args.port)</text>
-      </register>
-      <register name="8" type="4">
-        <text>mode=&quot;&quot;
-adress=&quot;&quot;
-port=&quot;&quot;</text>
-      </register>
-      <register name="9" type="4">
-        <text>dest='mode', 
-                    const='SERVER', default='CLIENT',
-                    help='Client mode (default: Client)')</text>
-      </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>F</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</text>
