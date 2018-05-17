@@ -8,12 +8,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526547030715">
+      <file name="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" timestamp="1526550831112">
         <mark key="'" line="60" column="29" />
-        <mark key="[" line="107" column="4" />
-        <mark key="]" line="107" column="4" />
-        <mark key="^" line="117" column="21" />
-        <mark key="." line="107" column="4" />
+        <mark key="[" line="121" column="7" />
+        <mark key="]" line="121" column="8" />
+        <mark key="^" line="120" column="21" />
+        <mark key="." line="121" column="8" />
         <mark key="o" line="12" column="58" />
       </file>
       <file name="/Python Console" timestamp="1526409867769">
@@ -25,13 +25,20 @@
       <jump line="60" column="29" filename="$USER_HOME$/PycharmProjects/Elgama_test/ftp.py" />
     </jumps>
     <registers>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoImNvbm5lY3Rpb24gZm91bmQhIikK</text>
+      <register name="1" type="4">
+        <text>cmd = ['/bin/sh', '-c', data]
+        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE).wait()
+        stdout, stderr = cmd.communicate()</text>
       </register>
       <register name="&quot;" type="4">
-        <text>p</text>
+        <text>cmd = ['/bin/sh', '-c', data]
+        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE).wait()
+        stdout, stderr = cmd.communicate()</text>
       </register>
-      <register name="2" type="4">
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBsb2dnaW5nLndhcm5pbmcoImNvbm5lY3Rpb24gZm91bmQhIikK</text>
+      </register>
+      <register name="3" type="4">
         <text>from pyftpdlib.authorizers import DummyAuthorizer
     from pyftpdlib.servers import FTPServer
     authorizer = ftpserver.DummyAuthorizer()
@@ -42,36 +49,33 @@
     ftpd = ftpserver.FTPServer(connection, handler)
     ftpd.serve_forever()</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">UGlybWEgdmVyc2lqYSBzdSBjbGllbnRvIGZ1bmtjaWpvbWlzCg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>a = &quot;hello wordddd&quot;
 #print(a)</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAjIHByaW50KGZ0cC5nZXR3ZWxjb21lKCkpCiAgICMgZnRwLmRpcigp</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>print(args.mode)
 print(args.adress)
 print(args.port)</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>mode=&quot;&quot;
 adress=&quot;&quot;
 port=&quot;&quot;</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>dest='mode', 
                     const='SERVER', default='CLIENT',
                     help='Client mode (default: Client)')</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBoZWxwPSdzdW0gdGhlIGludGVnZXJzIChkZWZhdWx0OiBmaW5kIHRoZSBtYXgpJykK</text>
-      </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text>#</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzZXJ2ZXJzb2NrZXRcPg==</text>
